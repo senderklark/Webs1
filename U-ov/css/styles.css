@@ -1,0 +1,51 @@
+.link {
+    text-decoration: none;
+    font-size: 32px;
+    color: black;
+        
+}
+.link:hover {
+    color: red;
+    font-size: 34;
+}
+.link:focus {
+    color: gold;
+}
+
+.button1 {
+    border: 0;
+    line-height: 2.5;
+    margin: 20px;
+    padding: 0 20px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    background-color: orange;
+    background-image: linear-gradient(to top left,
+        rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    transition: 250ms ease;
+}
+.button1:hover {
+    background-color: darkorange;
+    
+}
+.button1:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.informatie {
+    font-size:12px;
+}
+.footer {
+    font-size:12px;
+}
+#email:valid {
+    background: green;
+}
